@@ -1,0 +1,6 @@
+git init
+git add --all
+git status
+git commit -m "comment"
+git remote add origin https://github.com/rasoolsk/gokarting
+git push -u origin master
