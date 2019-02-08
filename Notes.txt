@@ -4,3 +4,14 @@ git status
 git commit -m "comment"
 git remote add origin https://github.com/rasoolsk/gokarting
 git push -u origin master
+
+git push --force -u origin master
+
+-> to modify existing doc on server
+git checkout 12345.txt
+git add 12345.txt
+git commit -m "aaasa"
+git push -u origin master
+
+-> local deletion to reflect in server
+
